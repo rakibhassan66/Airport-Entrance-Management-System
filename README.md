@@ -4,8 +4,8 @@
   </a>
 </p>
 <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/rakibhassan66/rakibhassan66/output/github-contribution-grid-snake-dark.svg"><img src="https://raw.githubusercontent.com/ShrekBytes/ShrekBytes/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" style="max-width: 100%;"></a>
-### Explanation of the Diagram
 
+  ### Explanation_of_the_Diagram
 - **Entities and Fields**: Each box represents an entity (table) with primary keys (PK) and foreign keys (FK) indicated.
 - **Relationships**:
   - **Admin** manages multiple **Users**.
