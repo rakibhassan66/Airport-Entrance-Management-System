@@ -242,3 +242,29 @@ CREATE TABLE RetailStores (
     Name VARCHAR(100),
     Location VARCHAR(50)
 );
+
+-- New Table: FlightStatusLog
+CREATE TABLE FlightStatusLog (
+    LogID INT PRIMARY KEY AUTO_INCREMENT,
+    FlightID INT NOT NULL,
+    OldStatus ENUM('Scheduled', 'Delayed', 'Cancelled', 'Completed'),
+    NewStatus ENUM('Scheduled', 'Delayed', 'Cancelled', 'Completed'),
+    ChangeTime DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (FlightID) REFERENCES Flights(FlightID)
+);
+
+-- Trigger: Log Flight Status Changes
+DELIMITER $$
+
+CREATE TRIGGER LogFlightStatusChange
+AFTER UPDATE ON Flights
+FOR EACH ROW
+BEGIN
+    -- Check if the status has changed
+    IF OLD.Status <> NEW.Status THEN
+        INSERT INTO FlightStatusLog (FlightID, OldStatus, NewStatus)
+        VALUES (NEW.FlightID, OLD.Status, NEW.Status);
+    END IF;
+END$$
+
+DELIMITER ;
