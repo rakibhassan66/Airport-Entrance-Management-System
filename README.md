@@ -1,5 +1,20 @@
 # International Airport Management System
 
+## Screenshots
+
+### Passenger Management UI
+![Passenger Management UI](Devfiles/Assets/s1.png)
+
+### Flight Dashboard
+![Flight Dashboard](Devfiles/Assets/s2.jpg)
+
+### Animated Demo
+<video controls autoplay muted loop style="max-width: 100%;">
+  <source src="Devfiles/Assets/an.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## Welcome Message
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -177,22 +192,6 @@ erDiagram
 
 ---
 
-## Screenshots
-
-### Passenger Management UI
-![Passenger Management UI](Devfiles/Assets/s1.png)
-
-### Flight Dashboard
-![Flight Dashboard](Devfiles/Assets/s2.jpg)
-
-### Animated Demo
-<video controls autoplay muted loop style="max-width: 100%;">
-  <source src="Devfiles/Assets/an.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
----
-
 ## Contribution Guidelines
 1. Fork the repository and create a new branch.
 2. Submit a pull request with detailed descriptions of changes.
@@ -208,4 +207,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 For issues or contributions, contact:
 - **Author**: Rakib Hassan
-- **Email**: rakib@example.com
+- **Email**: rakibhassan.rh66@protonmail.com
