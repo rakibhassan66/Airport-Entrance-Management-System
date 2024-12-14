@@ -53,6 +53,9 @@ The **International Airport Management System** is a database-driven project des
    git clone https://github.com/yourusername/airport-management-system.git
    cd airport-management-system
    ```
+   ```bash
+   Make sure you have connected with your PHP file otherwise, you can't play the server it's a pre-fetch SQL So you have to make it based on tour pc Confiq and assessment
+   ```
 
 2. **Set Up the Database**
    - Open **phpMyAdmin** by navigating to `http://localhost/phpmyadmin`.
@@ -208,3 +211,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 For issues or contributions, contact:
 - **Author**: Rakib Hassan
 - **Email**: rakibhassan.rh66@protonmail.com
+- **Contact** https://bio.link/rakibhassan66
