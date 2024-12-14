@@ -183,7 +183,7 @@ erDiagram
 ![Passenger Management UI](Assets/s1.png)
 
 ### Flight Dashboard
-![Flight Dashboard](Assets/s2.png)
+![Flight Dashboard](Assets/s2.jpg)
 
 ### Animated Demo
 <video controls autoplay muted loop style="max-width: 100%;">
