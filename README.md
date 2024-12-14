@@ -180,13 +180,16 @@ erDiagram
 ## Screenshots
 
 ### Passenger Management UI
-![Passenger Management UI](assets/screenshot1.png)
+![Passenger Management UI](Assets/s1.png)
 
 ### Flight Dashboard
-![Flight Dashboard](assets/screenshot2.png)
+![Flight Dashboard](Assets/s2.png)
 
 ### Animated Demo
-![Demo Animation](assets/animation.gif)
+<video controls autoplay muted loop style="max-width: 100%;">
+  <source src="Assets/an.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
